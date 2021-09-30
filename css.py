@@ -21,7 +21,7 @@ def main():
     transferdata = TransferData(access_token)
 
     file_from = 'C:\Users\Sree Sahasra\Desktop\CLASS 100 HA'
-    file_to = 'C:\Users\Sree Sahasra\Desktop\EVERYTHING'
+    file_to = input('Enter your dropbox path to move the folder to:-')
     transferdata.upload_folder(file_from,file_to)
     print("Files uploaded successfully!")
 
